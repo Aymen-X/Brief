@@ -1,0 +1,315 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Eras ITC Light";
+  
+}
+
+body {
+  background-image: url("image/gif/back1.jpg");
+  background-attachment: fixed;
+  width: 100vw;
+  background-position: center;
+  overflow-x: hidden; 
+  background-size: contain;
+  
+  
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  width: 60vw;
+  justify-content: space-between;
+  margin: 2%;
+  list-style: none;
+  
+}
+.menu ul li a {
+  
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 7;
+  text-decoration: none;
+  font-family: "Eras ITC Light";
+  
+}
+.menu ul li a:hover {
+  text-shadow: 0px 0px 0 rgb(88, 88, 88), 1px 1px 0 rgb(5, 5, 5),
+    2px 2px 0 rgb(0, 0, 0), 3px 3px 0 rgb(2, 2, 2), 4px 4px 0 rgb(231, 229, 227),
+    5px 5px 0 rgb(82, 81, 81), 6px 6px 0 rgb(14, 14, 13);
+  
+  }
+
+.mainlogo {
+  width: 105px;
+  height: 60px;
+  margin: 20px 20px;
+
+}
+#check {
+  display: none;
+}
+.click-menu img {
+  height: 3em;
+  display: none;
+}
+.click-menu img:hover {
+  transform: rotateZ(-30deg)
+}
+
+.signin-button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  width: 5vw;
+  height: 5vh;
+  box-shadow: 1px 1px 1px rgb(250 250 252), 1px 1px 1px rgb(0 0 0),
+    1px 1px 1px rgb(250 252 250);
+}
+
+.signup-button {
+  background-color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  width: 5vw;
+  height: 5vh;
+  box-shadow: 1px 1px 1px rgb(0 0 0), 1px 1px 1px rgb(255 255 255),
+    1px 8px 10px rgb(0 0 0);
+}
+
+
+}
+.center{
+  
+  width: 100%;
+  
+}
+/* --------------------------------------------------------EVENTS----------------------------------------------------*/
+.Title {
+  color: #fffffe;
+  text-align: center;
+  box-shadow: 1px 1px 5px rgb(250 250 252), 1px 2px 10px rgb(0 0 0),
+    1px 1px 5px rgb(250 252 250);
+    
+}
+
+.car {
+  width: 341px;
+  height: 180px;
+  border: 1px solid rgb(0, 0, 0);
+  
+}
+
+.event{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+.block {
+
+  width: 342px;
+  height: 480px;
+  text-align: center;
+  
+  margin:20px 0px 20px 20px;
+ border: 1px solid rgb(0, 0, 0);
+ color: rgb(0, 0, 0);
+ background-color: #fff; 
+}
+
+.group h3{
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+.radius{
+  width: 56px;
+  height: 56px;
+  border: 1px solid black;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: -32px;
+  left: 260px;
+  background-color: #fff;
+
+}
+
+.button {
+  width: 36px;
+  height: 36px;
+  
+}
+
+.blurbg {
+  z-index: -1;
+  width: 875px;
+  height: 420px;
+  background-color: rgb(255, 255, 255,0,1);
+  margin-top: 45px;
+  position:relative;
+  left:-5px;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgb(255, 255, 255,0.4);
+}
+
+.box{
+  padding-top: 15px;
+  padding-left: 85px;
+  width: 280px;
+  height: 60px;
+  position: relative;
+  top: 110px;
+  left: 100px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 16px;
+ }
+
+ 
+
+ .box1{
+  padding-top: 15px;
+  padding-left: 85px;
+  width: 280px;
+  height: 60px;
+  position: relative;
+  left: 500px;
+  top: 50px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 16px;
+ }
+ 
+ .box2{
+  padding-top: 15px;
+  padding-left: 230px;
+  width: 700px;
+  height: 60px;
+  position: relative;
+  left: 90px;
+  top: 190px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 16px;
+ }
+
+ 
+
+
+/* --------------------------------------------------------Footer----------------------------------------------------*/
+
+
+.footer {
+  width: 100%;
+  height: 10%;
+  overflow: hidden;
+  background-color: transparent;
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-evenly;
+  position: absolute;
+  
+ 
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  #check:checked ~ ul {
+    left: 2.5% !important;
+    width: 95vw !important;
+    height: 102vh !important;
+    padding-top: 60%;
+  }
+  .menu {
+    padding: 40px;
+  }
+  ul {
+    position: absolute;
+    z-index: 9999;
+    flex-direction: column;
+    top: 100px;
+    left: -100%;
+    text-align: center;
+    background: #000;
+    border-radius: 50px;
+  }
+  ul li {
+    padding: 0;
+  }
+  .signin-button, .signup-button{
+    width: 18vw;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+    width: 90vw;
+    height: 74vh;
+    padding: 20px 0px;
+  }
+  .click-menu img {
+    display: block;
+    width: 11vw;
+    height: 7vh;
+    box-shadow: 0px 0px 1px rgb(250 250 252), 0px 0px 1px rgb(0 0 0),
+      0px 0px 4px rgb(250 252 250);
+    border-radius: 50%;
+  }
+  .mainlogo {
+    height: 10%;
+    margin: 0px;
+    position: absolute;
+  }
+  .vehicles{
+    width: 100vw;
+  }
+  .cars, .motorcycle, .trucks, .construction-machine{
+    padding-left: 18px;
+  }
+  .footer {
+    width: 100vw;
+    right: -5%;
+    bottom: -94rem;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .some img {
+    height: 150px;
+  }
+
+}
